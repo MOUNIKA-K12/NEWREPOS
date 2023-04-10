@@ -1,12 +1,7 @@
-package bb 
-  
-// creating a class
-class geek
-{ 
-    private var id=0
-    def method()
-    {
-        println("welcome to geek class")
-        println("id="+id)
-    }
-} 
+object one{
+  def main(arg:Array[String]){
+    val a=20;
+    val b=30;
+    println(a+b)
+  }
+}
